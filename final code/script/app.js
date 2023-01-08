@@ -2,9 +2,10 @@
 
 let projects = document.querySelectorAll('.project-card');
 
+
 projects.forEach((card, index) => {
 
-    let closeBtn = card.querySelector('.close-btn');
+    let closeBtn = card.querySelectorAll('.close-btn');
     closeBtn.addEventListener('click', () => {
         projects.forEach((item, i) => {
             item.classList.remove('blur')
@@ -47,3 +48,4 @@ tags.forEach(btn => {
         btn.classList.add('active')
     })
 });
+

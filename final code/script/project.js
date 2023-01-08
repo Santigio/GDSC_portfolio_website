@@ -5,7 +5,7 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#javascript'
     },
     {
         image: 'https://media.istockphoto.com/id/1145618475/photo/villefranche-on-sea-in-evening.jpg?s=612x612&w=0&k=20&c=vQGj6uK7UUVt0vQhZc9yhRO_oYBEf8IeeDxGyJKbLKI=',
@@ -13,7 +13,7 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: '#fullstack'
     },
     {
         image: 'https://media.istockphoto.com/id/1145618475/photo/villefranche-on-sea-in-evening.jpg?s=612x612&w=0&k=20&c=vQGj6uK7UUVt0vQhZc9yhRO_oYBEf8IeeDxGyJKbLKI=',
@@ -21,7 +21,7 @@ let projectData = [
         detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
         github: '#',
         live: '#',
-        tags: '#javascript, #fullstack, #css'
+        tags: ' #css'
     },
     {
         image: 'https://media.istockphoto.com/id/1145618475/photo/villefranche-on-sea-in-evening.jpg?s=612x612&w=0&k=20&c=vQGj6uK7UUVt0vQhZc9yhRO_oYBEf8IeeDxGyJKbLKI=',
@@ -54,8 +54,6 @@ const createProjectCards = (data) => {
             </div>
           </div>
         </div>`
-
-
     }
 }
 
